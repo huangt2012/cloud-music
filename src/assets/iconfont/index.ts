@@ -1,13 +1,15 @@
 import { createGlobalStyle } from 'styled-components';
 
 export const IconStyle = createGlobalStyle`
-@font-face {font-family: "iconfont";
-  src: url ('iconfont.eot?t=1565320061289'); /* IE9 */
-  src: url ('iconfont.eot?t=1565320061289#iefix' ... 省略 base64 巨长字符) format ('embedded-opentype'), /* IE6-IE8 */
-  url ('data:application/x-font-woff2;charset=utf-8) format ('woff2'),
-  url ('iconfont.woff?t=1565320061289') format ('woff'),
-  url ('iconfont.ttf?t=1565320061289') format ('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
-  url ('iconfont.svg?t=1565320061289#iconfont') format ('svg'); /* iOS 4.1- */
+
+@font-face {
+  font-family: 'iconfont';  /* project id 1748475 */
+  src: url('//at.alicdn.com/t/font_1748475_5fztiroga05.eot');
+  src: url('//at.alicdn.com/t/font_1748475_5fztiroga05.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1748475_5fztiroga05.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1748475_5fztiroga05.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1748475_5fztiroga05.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1748475_5fztiroga05.svg#iconfont') format('svg');
 }
 
 .iconfont {
@@ -17,4 +19,4 @@ export const IconStyle = createGlobalStyle`
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-`
+`;
